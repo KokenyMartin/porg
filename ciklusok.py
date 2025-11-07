@@ -1,3 +1,4 @@
+import random as r
 '''
 cilusok ismétlés loop
 
@@ -13,7 +14,37 @@ tesztelős while
 for elem in range(0,19,2):
     print(elem, end=" ")
 
-söveg = "kecske"
+söveg = "kecskemét"
 print(söveg)
 for karakter in söveg:
-    print(karakter)
+    print(karakter, end=",")
+print()
+
+#söveg [0]
+#söveg [1]
+#söveg [2]
+for index in range(0, len(söveg)-1,1):
+    print(söveg[index], end=",")
+print(söveg[-5])
+
+
+for elem in range(32,50,4):
+    print(elem)
+print()
+
+
+for b in range(10,0,-1):
+    print(b, end=" ")
+print()
+for index in range(len(söveg)-1,-1,-1):
+    print(söveg[index],end="")
+print()
+
+for index in range(0, len(söveg), 1):
+    print(str(index+1)+söveg[index], end=" ")
+print()
+for db in range (0,5,1):
+    sam=r.randint (0,3)
+    print(söveg[sam], end=" ")
+print()
+
