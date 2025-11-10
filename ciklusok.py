@@ -36,8 +36,12 @@ print()
 for b in range(10,0,-1):
     print(b, end=" ")
 print()
+
+ujszöveg=""
 for index in range(len(söveg)-1,-1,-1):
+    ujszöveg +=söveg[index]
     print(söveg[index],end="")
+
 print()
 
 for index in range(0, len(söveg), 1):
@@ -48,3 +52,4 @@ for db in range (0,5,1):
     print(söveg[sam], end=" ")
 print()
 
+print(ujszöveg)
