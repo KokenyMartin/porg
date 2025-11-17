@@ -1,4 +1,5 @@
 import random as r
+import math
 '''
 cilusok ismétlés loop
 
@@ -53,3 +54,29 @@ for db in range (0,5,1):
 print()
 
 print(ujszöveg)
+"""
+elöl tesztelős vsgy while ciklus nem tudjuk hanyszor ismétel akorismétel ha feltétel igaz
+
+while(feltétel):
+    utasítások (szekvencia)
+"""
+velszam = r.randint(0,10)
+print(velszam)
+while(velszam != 0):
+    velszam = r.randint(0,10)
+    print(velszam, end=" ")
+print()
+
+osszeg = 0
+db= 0
+a = int(input("szám :"))
+#osszeg += a
+#db += 1
+while(a !=0):
+    
+    osszeg +=a
+    db += 1
+    a = int(input("adjonmeg egy számot: "))
+print(round(osszeg/db,2))
+
+szo =input("irj egy szot vagy egy szöveget :")
