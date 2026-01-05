@@ -28,5 +28,12 @@ print(harom)
 print(ot)
 print(het)
 
+# számtani átlag
+# mértani átlag
+# 13, 17-re végződő szám, hany osztható 13, 17-tel
+# bekérsz egy hoszab szöveget hány da rab felhasználoáltal megadot betűvan bene
+# bekész két szot mond meg adott indexen hány darab egyezés és külöbszg
+
+
 
 
