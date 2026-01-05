@@ -9,6 +9,9 @@ lista_name.remove
 """
 
 szamok =[3,2,5,7,1]
+print(szamok)
+szamok.append(12)
+szamok.remove(3)
 print("lista hosza :",str(len(szamok)))
 print("lista 1 eleme", szamok[0])
 print("utolsó eleme :", szamok[len(szamok)-1])
