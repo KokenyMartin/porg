@@ -21,3 +21,21 @@ for i in range(0,n,1):
     kartya.append(végsebessége)
 
 print(kartya)
+
+
+
+oszeg=0
+for i in range(1,len(kartya),2):
+   #print(kartya[i])
+   oszeg += kartya[i]
+
+db= len(kartya)
+atlag= oszeg // db
+print("Jancsi autóinak végsebességének átlaga", atlag)
+
+joszeg=0
+for i in range(0,len(kartya),2):
+    if(kartya[i]>380):
+        joszeg += 1
+
+print(joszeg)
