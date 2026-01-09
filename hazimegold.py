@@ -12,7 +12,7 @@ for i in range(0,n,1):
     if(veletlen == 1):
         lista.append(szam*100+13)
     else:
-        lista.append(szam*100+13)
+        lista.append(szam*100+17)
     
 print(lista)
 
