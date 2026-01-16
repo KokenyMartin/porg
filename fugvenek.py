@@ -8,7 +8,7 @@ fugvenyNev() #fügvénybehivása
 """
 #viszatérési értéknélküli fgv
 #általában kiiratáskor használju
-
+import random
 def oszeadas():
     a=12
     b=17
@@ -34,3 +34,33 @@ def oszeadasvizsateresel(a,b):
     c= a + b
     return c
 print(oszeadasvizsateresel(12,18))
+
+def veletlenszam(db):
+    for i in range(0,db,1):
+     print(random.randint(100,999),end=" ")
+    print()
+veletlenszam(5)
+
+def szovegvisza(szoveg):
+    for i in range(len(szoveg)-1,-1,-1):
+        print(szoveg[i], end="")
+    print()
+
+szovegvisza("kalapács")
+
+viszaszoveg = ""
+def szvegviszafele(szoveg):
+    for i in range(len(szoveg)-1,-1,-1):
+        viszaszoveg += szoveg[i]
+    return viszaszoveg
+
+print(szovegvisza("kalapasc"))
+
+i=0
+def palindorom(szo):
+    while(i <=len(szo)//2 and szo[i] == szo[len(szo)]-1-i):
+        i +=1
+    
+
+        
+print(palindorom("ada"))
