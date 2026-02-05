@@ -36,7 +36,6 @@ def listaTerjedelme(lista):
     minimum=listaMinimum(lista)
     return maximum - minimum
 
-
 def vaneMaxpont(lista):
     n= 200
     isdex=0
